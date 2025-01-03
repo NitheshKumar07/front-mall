@@ -54,7 +54,7 @@ const [cartLoading, setcartLoading] = useState({});
 
 const getData = ()=>{
   setLoading(true);
-  axios.get('https://website-api-nu.vercel.app/product/category/66e0ab0a2e6bda2ea8fee815')
+  axios.get('https://website-api-xq9y.onrender.com/product/category/66e0ab0a2e6bda2ea8fee815')
   .then(res=>{
     setLoading(false);
     setMobile(res.data.product);
